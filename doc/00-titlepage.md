@@ -9,6 +9,7 @@ output:
     pdf_document
 ---
 
+\tableofcontents
 
 # NIDUC
 
