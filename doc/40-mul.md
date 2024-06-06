@@ -21,10 +21,17 @@ w którym mógł pojawić się błąd miękki, wprowazono błąd. Na każdą wer
 symulacji wprowadzono jeden błąd.
 
 Zgodnie z teorią kodów resztowych, układ dla kodu resztowego MOD 3, wykrywał
-wszyskie błędy pojedyńcze, które w implementacji układu przy użyciu wielu układów
+wszyskie błędy pojedyńcze (obrazek \ref{img:mul_err_1}), które w implementacji układu przy użyciu wielu układów
 RCA, generowały wyłącznie błędy o różnicy będącej potęgą dwójki.
 
+![Symulacja z wprowadzonym pojedyńczym błędem \label{img:mul_err_1}](assets/mul_err_1.png)
+
 Podczas symulacji w której występowały dwa błędy na raz, układ czasami nie był
-w stanie wykryć wystąpienia błędu (testy błędu fałszywie negatywne), a czasami błąd 
-był wykrywany. Zgodnie z przewidywaniami, było to spowodowane przez wynik arytmetyczny
+w stanie wykryć wystąpienia błędu (testy błędu fałszywie negatywne) - bład był 
+podzielny przez 3 (obrazek \ref{img:mul_err_0}), a czasami błąd 
+był wykrywany - nie podzielny przez 3 (obrazek \ref{img:mul_err_2}). Zgodnie z przewidywaniami, było to spowodowane przez wynik arytmetyczny
 który pokrywał się z bazą za którą wybrano 3.
+
+![Symulacja z wprowadzonym błędem generującym błąd arytmetyczny mod3 \label{img:mul_err_0}](assets/mul_err_0.png)
+
+![Symulacja z wprowadzonym błędem generującym \label{img:mul_err_2}](assets/mul_err_2.png)
