@@ -11,7 +11,9 @@ output:
 ---
 
 \maketitle
-\tableofcontents
 
 \newpage
 \pagebreak
+\tableofcontents
+
+
