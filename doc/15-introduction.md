@@ -14,6 +14,13 @@ Układ arytmetyczny odporny na błędy to układ którego wejścia, stany wewnę
 wyjścia są zakodowane za pomocą kodów wykrywających błędy. W przypadku wystąpienia 
 błędu, jest on naprawiany, lub jest on wykrywany.
 
+## Błędy
+
+W kontekście układów arytmetycznych, ilość bitów o błędnej wartości nie ma aż takiego 
+znaczenia, w porównaniu do wartości arytmetycznej błędu będącej dla pojedyńczych błędów
+potęgą dwójki. Na tym założeniu, kody resztowe obliczane jako reszta z dzielenia przez
+jakąś liczbę całkowitą nieparzystą, umożliwiają 100% wykrycie błędów pojedyńczych.
+
 ## Jednostka arytmetyczna z wykrywaniem błędów przy użyciu kodów resztowych
 
 Jednostkę arytmetyczną można by zabiezpieczyć przy pomocy kodów resztowych przez
