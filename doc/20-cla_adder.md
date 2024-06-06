@@ -23,9 +23,3 @@ mającą umożliwić modyfikację sygnału wyjściowego.
 
 Na potrzeby symulacji założono że błędy mogą powstać w części sumatora działającej na niezmodfikowanych
 wejściach jak i działającej na kodach resztkowych. Wyniki symulacji widoczne są w tabeli \ref{tab:cla} strona \pageref{tab:cla}
-
-## Wnioski
-
-
-# Źródła
-[1] M. Nicolaidis, Ed., Soft Errors in Modern Electronic Systems. New York, NY, USA: Springer, 2011.
