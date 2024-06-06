@@ -23,9 +23,9 @@ jakąś liczbę całkowitą nieparzystą, umożliwiają 100% wykrycie błędów 
 
 ## Kody resztowe
 
-Słowa kodowe kodów resztowych mod A są tworzone z części X (liczba całkowita na której operujemy)
-oraz |X|~A~ (część kontrolna wynikająca z reszty dzielenie X przez A czyli |X|~A~ ≡ X mod A) w postaci (X, |X|~A~). 
-Ponieważ |X|~A~ jest resztą z dzielenia X przez A, to |X|~A~ zawsze przyjmuje wartości (0 ⩽ |X|~A~ ⩽ A − 1). 
+Słowa kodowe kodów resztowych mod A są tworzone z części $X$ (liczba całkowita na której operujemy)
+oraz $|X|_A$ (część kontrolna wynikająca z reszty dzielenie $X$ przez A czyli $|X|_A ≡ X mod A$) w postaci $(X, |X|_A)$. 
+Ponieważ $|X|_A$ jest resztą z dzielenia $X$ przez A, to $|X|_A$ zawsze przyjmuje wartości $(0 ⩽ |X|_A ⩽ A − 1)$. 
 Z tego wynika własność kodów resztowych mod A, czyli, że wykrywają wszystkie błędy pojedyńcze
 i wszystkie błędy wielokrotne oprócz tych, które kumulują się do wielokrotności A, 
 gdy A jest liczbą całkowitą nieparzystą większą niż 1.
@@ -33,13 +33,13 @@ gdy A jest liczbą całkowitą nieparzystą większą niż 1.
 Kody resztowe mogą być stosowane do wszelkich układów arytmetycznych m.in. sumatory, subtraktory,
 układy mnożące i dzielące. 
 
-Mając liczby X i Y, które są całkowitymi liczbami i ich reszty |X|~A~ |Y|~A~, 
-czyli mając operandy C(X) = (X, |X|~A~) oraz C(Y) = (Y, |Y|~A~), można zapisać operacje arytmetyczne
+Mając liczby $X$ i $Y$, które są całkowitymi liczbami i ich reszty $|X|_A |Y|_A$, 
+czyli mając operandy $C(X) = (X, |X|_A)$ oraz $C(Y) = (Y, |Y|_A)$, można zapisać operacje arytmetyczne
 dodawania, odejmowania oraz mnożenia w następujący sposób:
 
-|X ± Y|~A~ = ||X|~A~ ± |Y|~A~|~A~ 
+$|X \pm Y|_A = ||X|_A \pm |Y|_A|_A$
 
-|X × Y|~A~ = ||X|~A~ × |Y|~A~|~A~
+$|X \cdot Y|_A = ||X|_A \cdot |Y|_A|_A$
 
 Jak to pokazują powyższe równania, operacje arytmetyczne na całkowitych liczbach 
 oraz ich resztach mod A można wykonywać osobno. Dzięki tej własności układ kontrolny kodów resztowych 
