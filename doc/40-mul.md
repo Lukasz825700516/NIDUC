@@ -1,4 +1,4 @@
-U# Układ mnożący
+# Układ mnożący
 
 Układ mnożący jest układem cyfrowym wykonującym działanie mnożenia.
 
@@ -6,7 +6,7 @@ Układ mnożący jest układem cyfrowym wykonującym działanie mnożenia.
 
 Zrealizowano układ mnożący z układem mnożenia kodów resztowych.
 
-![resztowe](assets/mul_main.md)
+![resztowe](assets/mul_main.png)
 
 ## Wykrywanie błędów
 

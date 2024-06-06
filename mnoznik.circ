@@ -25,7 +25,7 @@
   <lib desc="#BFH-Praktika" name="9"/>
   <lib desc="#Input/Output-Extra" name="10"/>
   <lib desc="#Soc" name="11"/>
-  <main name="rca"/>
+  <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
     <a name="simlimit" val="1000"/>
@@ -858,401 +858,163 @@
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
-    <comp lib="0" loc="(1160,1000)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1020)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1040)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1060)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1080)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1100)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1120)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1140)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1160)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1180)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1200)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1220)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1240)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1260)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1280)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1300)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1320)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1340)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1360)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1380)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1400)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1420)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1440)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1460)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1480)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1500)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1520)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1540)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1560)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1580)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1600)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1620)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1640)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1660)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1680)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1700)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1720)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1740)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1760)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1780)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1800)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1820)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1840)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1860)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1880)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1900)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1920)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1940)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1960)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,1980)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,2000)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,2020)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,2040)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,2060)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,2080)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,2100)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,2120)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,2140)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,2160)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,460)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,480)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,500)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,520)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,540)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,560)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,580)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,600)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,620)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,640)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,660)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,680)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,700)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,720)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,740)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,760)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,780)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,800)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,820)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,840)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,860)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,880)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,900)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,920)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,940)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,960)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1160,980)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1870,1000)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1870,1020)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1870,1040)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1870,1060)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1870,1080)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1870,1100)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1870,1120)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1870,1140)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1870,1160)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1870,1180)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1870,1200)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1870,1220)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1870,1240)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1870,880)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1870,900)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1870,920)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1870,940)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1870,960)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(1870,980)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(2230,560)" name="Pin">
+    <comp lib="0" loc="(1110,880)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="a"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(1110,900)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="b"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(1260,500)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1260,520)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1260,540)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1260,560)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1260,580)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1260,600)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1260,620)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1260,640)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1260,660)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1260,680)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1260,700)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1260,720)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1260,740)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1260,760)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(1570,870)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1570,890)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1570,910)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1570,930)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(1930,550)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="2"/>
     </comp>
-    <comp lib="0" loc="(2230,590)" name="Pin">
+    <comp lib="0" loc="(1930,580)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="2"/>
     </comp>
-    <comp lib="0" loc="(2450,520)" name="Pin">
+    <comp lib="0" loc="(2150,510)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="mul"/>
       <a name="output" val="true"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="0" loc="(2470,630)" name="Pin">
+    <comp lib="0" loc="(2170,620)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="err"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(370,840)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="label" val="a"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(370,860)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="label" val="b"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="1" loc="(2470,630)" name="NOT Gate"/>
-    <comp loc="(1380,460)" name="mymul"/>
-    <comp loc="(1780,1260)" name="bit4mod3"/>
-    <comp loc="(1780,1310)" name="bit4mod3"/>
-    <comp loc="(2080,560)" name="fixed8mod3"/>
-    <comp loc="(2090,880)" name="mymul2"/>
-    <comp loc="(2340,880)" name="bit4mod3"/>
-    <comp loc="(2440,630)" name="thesame2x2"/>
-    <wire from="(1090,2200)" to="(1160,2200)"/>
-    <wire from="(1090,860)" to="(1090,2200)"/>
-    <wire from="(1100,2180)" to="(1160,2180)"/>
-    <wire from="(1100,840)" to="(1100,2180)"/>
-    <wire from="(1380,460)" to="(1380,520)"/>
-    <wire from="(1380,520)" to="(1850,520)"/>
-    <wire from="(1440,1310)" to="(1560,1310)"/>
-    <wire from="(1440,390)" to="(1440,1310)"/>
-    <wire from="(1450,1260)" to="(1560,1260)"/>
-    <wire from="(1450,380)" to="(1450,1260)"/>
-    <wire from="(1780,1260)" to="(1870,1260)"/>
-    <wire from="(1780,1280)" to="(1780,1310)"/>
-    <wire from="(1780,1280)" to="(1870,1280)"/>
-    <wire from="(1850,520)" to="(1850,560)"/>
-    <wire from="(1850,520)" to="(2450,520)"/>
-    <wire from="(1850,560)" to="(1860,560)"/>
-    <wire from="(2080,560)" to="(2210,560)"/>
-    <wire from="(2090,880)" to="(2120,880)"/>
-    <wire from="(2170,590)" to="(2170,820)"/>
-    <wire from="(2170,590)" to="(2200,590)"/>
-    <wire from="(2170,820)" to="(2350,820)"/>
-    <wire from="(2200,590)" to="(2200,650)"/>
-    <wire from="(2200,590)" to="(2230,590)"/>
-    <wire from="(2200,650)" to="(2220,650)"/>
-    <wire from="(2210,560)" to="(2210,630)"/>
-    <wire from="(2210,560)" to="(2230,560)"/>
-    <wire from="(2210,630)" to="(2220,630)"/>
-    <wire from="(2340,880)" to="(2350,880)"/>
-    <wire from="(2350,820)" to="(2350,880)"/>
-    <wire from="(370,840)" to="(630,840)"/>
-    <wire from="(370,860)" to="(640,860)"/>
-    <wire from="(630,380)" to="(1450,380)"/>
-    <wire from="(630,380)" to="(630,840)"/>
-    <wire from="(630,840)" to="(1100,840)"/>
-    <wire from="(640,390)" to="(1440,390)"/>
-    <wire from="(640,390)" to="(640,860)"/>
-    <wire from="(640,860)" to="(1090,860)"/>
+    <comp lib="1" loc="(2170,620)" name="NOT Gate"/>
+    <comp loc="(1480,500)" name="mymul"/>
+    <comp loc="(1480,930)" name="bit4mod3"/>
+    <comp loc="(1480,980)" name="bit4mod3"/>
+    <comp loc="(1780,550)" name="fixed8mod3"/>
+    <comp loc="(1790,870)" name="mymul2"/>
+    <comp loc="(2040,870)" name="bit4mod3"/>
+    <comp loc="(2140,620)" name="thesame2x2"/>
+    <wire from="(1110,880)" to="(1140,880)"/>
+    <wire from="(1110,900)" to="(1150,900)"/>
+    <wire from="(1140,880)" to="(1140,970)"/>
+    <wire from="(1140,880)" to="(1190,880)"/>
+    <wire from="(1140,970)" to="(1250,970)"/>
+    <wire from="(1150,1030)" to="(1230,1030)"/>
+    <wire from="(1150,900)" to="(1150,1030)"/>
+    <wire from="(1150,900)" to="(1210,900)"/>
+    <wire from="(1190,780)" to="(1190,880)"/>
+    <wire from="(1190,780)" to="(1260,780)"/>
+    <wire from="(1210,800)" to="(1210,900)"/>
+    <wire from="(1210,800)" to="(1260,800)"/>
+    <wire from="(1220,1020)" to="(1230,1020)"/>
+    <wire from="(1220,980)" to="(1220,1020)"/>
+    <wire from="(1220,980)" to="(1260,980)"/>
+    <wire from="(1230,1020)" to="(1230,1030)"/>
+    <wire from="(1250,930)" to="(1250,970)"/>
+    <wire from="(1250,930)" to="(1260,930)"/>
+    <wire from="(1480,500)" to="(1480,510)"/>
+    <wire from="(1480,510)" to="(1550,510)"/>
+    <wire from="(1480,930)" to="(1480,960)"/>
+    <wire from="(1480,960)" to="(1570,960)"/>
+    <wire from="(1480,980)" to="(1570,980)"/>
+    <wire from="(1550,510)" to="(1550,550)"/>
+    <wire from="(1550,510)" to="(2150,510)"/>
+    <wire from="(1550,550)" to="(1560,550)"/>
+    <wire from="(1570,950)" to="(1570,960)"/>
+    <wire from="(1570,970)" to="(1570,980)"/>
+    <wire from="(1780,550)" to="(1910,550)"/>
+    <wire from="(1790,870)" to="(1820,870)"/>
+    <wire from="(1870,580)" to="(1870,810)"/>
+    <wire from="(1870,580)" to="(1900,580)"/>
+    <wire from="(1870,810)" to="(2050,810)"/>
+    <wire from="(1900,580)" to="(1900,640)"/>
+    <wire from="(1900,580)" to="(1930,580)"/>
+    <wire from="(1900,640)" to="(1920,640)"/>
+    <wire from="(1910,550)" to="(1910,620)"/>
+    <wire from="(1910,550)" to="(1930,550)"/>
+    <wire from="(1910,620)" to="(1920,620)"/>
+    <wire from="(2040,870)" to="(2050,870)"/>
+    <wire from="(2050,810)" to="(2050,870)"/>
   </circuit>
   <circuit name="better8mod3">
     <a name="appearance" val="logisim_evolution"/>
