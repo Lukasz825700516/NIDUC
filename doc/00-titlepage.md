@@ -10,11 +10,15 @@ output:
     pdf_document
 ---
 
-\maketitle
-\tableofcontents
+%\maketitle
+%\tableofcontents
 
-\newpage
-\pagebreak
+%\newpage
+%\pagebreak
+\documentclass[12pt]{article}
+\usepackage{EngReport}
+\usepackage{hyperref}
+\geometry{letterpaper, portrait, includeheadfoot=true, hmargin=1in, vmargin=1in}
 
 \begin{center}
 {\fontsize{40}{48}\selectfont \bfseries Niezawodność i diagnostyka układów cyfrowych 2} 
@@ -34,3 +38,7 @@ Prowadzący projekt: &  dr hab. inż. Stanisław Piestrak prof. uczelni\\
 Termin: & Piątek NP 9:15\\
 \end{tabular}
 \end{center}
+
+\newpage
+\pagebreak
+\tableofcontents
