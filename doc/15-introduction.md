@@ -27,7 +27,7 @@ Słowa kodowe kodów resztowych mod A są tworzone z części $X$ (liczba całko
 oraz $|X|_A$ (część kontrolna wynikająca z reszty dzielenie $X$ przez $A$ czyli $|X|_A \equiv X mod A$) w postaci $(X, |X|_A)$. 
 Ponieważ $|X|_A$ jest resztą z dzielenia $X$ przez $A$, to $|X|_A$ zawsze przyjmuje wartości $(0 \leq |X|_A \leq A - 1)$. 
 Z tego wynika własność kodów resztowych mod A, czyli, że wykrywają wszystkie błędy pojedyńcze
-i wszystkie błędy wielokrotne oprócz tych, które kumulują się do wielokrotności A, 
+i wszystkie błędy wielokrotne oprócz tych, których wartości kumulują się do wielokrotności A, 
 gdy A jest liczbą całkowitą nieparzystą większą niż 1.
 
 Kody resztowe mogą być stosowane do wszelkich układów arytmetycznych m.in. sumatory, subtraktory,

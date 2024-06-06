@@ -15,5 +15,7 @@ output:
 \newpage
 \pagebreak
 \tableofcontents
+\newpage
+\pagebreak
 
 
