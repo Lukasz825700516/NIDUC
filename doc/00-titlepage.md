@@ -15,9 +15,6 @@ output:
 
 %\newpage
 %\pagebreak
-\documentclass[12pt]{article}
-\usepackage{EngReport}
-\usepackage{hyperref}
 \geometry{letterpaper, portrait, includeheadfoot=true, hmargin=1in, vmargin=1in}
 
 \begin{center}
