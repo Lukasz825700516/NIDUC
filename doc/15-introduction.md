@@ -1,7 +1,7 @@
 # Wstęp
 
 "
-Układy cyfrowe są narażone na występowanie czasowych uszkodzeń przemijających[1],
+Układy cyfrowe są narażone na występowanie uszkodzeń przemijających[1],
 powodowanych przez wysoko energetyczne cząsteczki np. promieniowanie kosmiczne (single-event upset).
 
 Układy cyfrowe mogą być zabezpieczone w przed tym rodzajem błędów dzięki 
@@ -55,6 +55,9 @@ wygenerowanym z generatora reszt do którego podano wejście orginalnego układu
 Wyjście pierwotnego układu artymetycznego, jest następnie podawane do generatora
 reszt, i porównywane z wyjściem układu arytmetycznego na którego wejście podano
 kod resztowy. W przypadku gdy kody są nie równe, stwierdzane jest wystąpienie błędu.
+
+W Figure 1 jest pokazany układ arytmetyczny zabezpieczony kodem resztowym mod A,
+który ilustruje tę strukturę.
 
 ![Samosprawdzalny układ arytmetyczny zabezpieczony kodem resztowym mod A z prezentacji S. J. Piestrak](assets/uklad_zabezpieczony.png)
 
