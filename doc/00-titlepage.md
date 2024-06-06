@@ -15,3 +15,22 @@ output:
 
 \newpage
 \pagebreak
+
+\begin{center}
+{\fontsize{40}{48}\selectfont \bfseries Niezawodność i diagnostyka układów cyfrowych 2} 
+\\\vspace{20pt}
+{\LARGE Projekt} \\
+\vspace{20pt}
+\vspace{8pt}
+    
+\begin{tabular}{r  l}
+	Wykonujący projekt: & Łukasz Mędrek \\
+		& 263910 \\
+         	& Patryk Hłond\\
+         	& 259172\\
+         	& Kacper Wróblewski\\
+         	& 272952\\
+Prowadzący projekt: &  dr hab. inż. Stanisław Piestrak prof. uczelni\\
+Termin: & Piątek NP 9:15\\
+\end{tabular}
+\end{center}
