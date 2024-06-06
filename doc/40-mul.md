@@ -1,4 +1,4 @@
-U# Układ mnożący
+# Układ mnożący
 
 Układ mnożący jest układem cyfrowym wykonującym działanie mnożenia.
 
