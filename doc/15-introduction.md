@@ -56,10 +56,10 @@ Wyjście pierwotnego układu artymetycznego, jest następnie podawane do generat
 reszt, i porównywane z wyjściem układu arytmetycznego na którego wejście podano
 kod resztowy. W przypadku gdy kody są nie równe, stwierdzane jest wystąpienie błędu.
 
-W Figure 1 jest pokazany układ arytmetyczny zabezpieczony kodem resztowym mod A,
+Na obrazku \ref{img:piestrak} jest pokazany układ arytmetyczny zabezpieczony kodem resztowym mod A,
 który ilustruje tę strukturę.
 
-![Samosprawdzalny układ arytmetyczny zabezpieczony kodem resztowym mod A z prezentacji S. J. Piestrak](assets/uklad_zabezpieczony.png)
+![Samosprawdzalny układ arytmetyczny zabezpieczony kodem resztowym mod A z prezentacji S. J. Piestrak \label{img:piestrak}](assets/uklad_zabezpieczony.png)
 
 ## Projekt
 

@@ -14,10 +14,6 @@ $G_i = A_i B_i$, i $P_i = A_i + B_i$.
 
 ![Jedno ogniwo sumatora CLA, z możliwością wprowadzania błędów \label{fig:cla_unit}](assets/cla.png)
 
-\label{cla_adder}
-Dzięki porównywaniu wyników z układu figura \ref{fig:cla} strona \pageref{fig:cla} i figura \ref{fig:cla_mod3} strona \pageref{fig:cla_mod3} możliwe jest do sprawdzenia 
-wystąpienie błędów miękkich (soft errors)[1] za pomocą kodów resztowych.
-
 ## Symulacja błędów
 
 Aby zasymulować błędy tymczasowe które mogą się pojawić podczas czasu pracy działania układu,

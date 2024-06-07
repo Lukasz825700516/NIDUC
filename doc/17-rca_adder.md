@@ -1,12 +1,22 @@
 # Ripple carry adder
 
-jakiś wstęp co to
+Ripple carry adder jest układem sumującym opierającym się na szeregowo
+podłączonych ogniwach sumatora pełnego.
+Zbudowano ten układ z zabezpieczeniem przy użyciu kodów resztowych na obrazku \ref{fig:rca_main}.
 
-![Schemat 4 bitowego sumatora CLA \label{fig:cla}](assets/cla.png)
-
-![Schemat 2 bitowego sumatora CLA obliczającego z liczb w mod 3 \label{fig:cla_mod3}](assets/cla_mod3.png)
-
+![Schemat 4 bitowego sumatora CLA, zabezpieczconego kodami resztowymi \label{fig:rca_main}, używa \ref{img:mul_rca}](assets/rca_main.png)
 
 ## Symulacja błędów
 
-cośtam cośtam
+Przeprowadzono symulację układu, podczas której podano do niego wszystkie kombinacje błędów pojedyńczych,
+a następnie parę podwójnych.
+
+Dla błędów pojedyńczych układ zawsze syngalizował wykrycie błędu (obrazek \ref{img:rca_err1}). Dla błędów podwójnych,
+jeśli różnica arytmetyczna błędu była styczna z 3, bąd nie był wykrywany (obrazek \ref{img:rca_err0}), w 
+przeciwnym przypadaku, błąd był pomyślnie wykrywany (obrazek \ref{img:rca_err2}).
+
+![Układ RCA z wprowadzonym błędem pojedyńczym \label{img:cla_err1}](assets/rca_err_1.png)
+
+![Układ RCA z wprowadzonym błędem podwójnym, różnica styczna z 3 \label{img:cla_err2}](assets/rca_err_0.png)
+
+![Układ RCA z wprowadzonym błędem podwójnym, różnica niestyczna z 3 \label{img:cla_err2}](assets/rca_err_2.png)
