@@ -6,7 +6,7 @@ powodowanych przez wysoko energetyczne cząsteczki np. promieniowanie kosmiczne 
 
 Układy cyfrowe mogą być zabezpieczone w przed tym rodzajem błędów dzięki 
 kodom detekcji i naprawy błędów, lub powielaniu układów i porównywaniu ich działania.
-" - wszystko z 1. Introduction z pdf
+" - 1. Introduction z Fault-Tolerant Implementation of Direct FIR Filters Protected Using Residue Codes
 
 ## Układ arytmetyczny odporny na błędy
 
