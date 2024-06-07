@@ -22,14 +22,14 @@ mającą umożliwić modyfikację sygnału wyjściowego.
 
 Symulację przeprowadzono podając wszystkie wszystkie kombinacje błędów pojedyńczych, i sprawdzając 
 czy układ wykryje wprowadzenie błędu.
-Dla błędów pojedyńczych (obrazek \ref{img:cla_err1}), układ był w stanie wykryć błąd.
+Dla błędów pojedyńczych (obrazek \ref{fig:cla_err1}), układ był w stanie wykryć błąd.
 
 W przypadku błędów podwójnych, układ gdy powstała różnica arytmetyczna była styczna z 3, 
-układ nie wykrywał błędu (obrazek \ref{img:cla_err0}), a gdy nie była równa, wykrywał 
-go (obrazek \ref{img:cla_err2})
+układ nie wykrywał błędu (obrazek \ref{fig:cla_err0}), a gdy nie była równa, wykrywał 
+go (obrazek \ref{fig:cla_err2})
 
-![Układ CLA z wprowadzonym błędem pojedyńczym \label{img:cla_err1}](assets/cla_err_1.png)
+![Układ CLA z wprowadzonym błędem pojedyńczym \label{fig:cla_err1}](assets/cla_err_1.png)
 
-![Układ CLA z wprowadzonym błędem podwójnym, różnica styczna z 3 \label{img:cla_err0}](assets/cla_err_0.png)
+![Układ CLA z wprowadzonym błędem podwójnym, różnica styczna z 3 \label{fig:cla_err0}](assets/cla_err_0.png)
 
-![Układ CLA z wprowadzonym błędem podwójnym, różnica niestyczna z 3 \label{img:cla_err2}](assets/cla_err_2.png)
+![Układ CLA z wprowadzonym błędem podwójnym, różnica niestyczna z 3 \label{fig:cla_err2}](assets/cla_err_2.png)

@@ -15,8 +15,8 @@ Dla błędów pojedyńczych układ zawsze syngalizował wykrycie błędu (obraze
 jeśli różnica arytmetyczna błędu była styczna z 3, bąd nie był wykrywany (obrazek \ref{img:rca_err0}), w 
 przeciwnym przypadaku, błąd był pomyślnie wykrywany (obrazek \ref{img:rca_err2}).
 
-![Układ RCA z wprowadzonym błędem pojedyńczym \label{img:cla_err1}](assets/rca_err_1.png)
+![Układ RCA z wprowadzonym błędem pojedyńczym \label{img:rca_err1}](assets/rca_err_1.png)
 
-![Układ RCA z wprowadzonym błędem podwójnym, różnica styczna z 3 \label{img:cla_err2}](assets/rca_err_0.png)
+![Układ RCA z wprowadzonym błędem podwójnym, różnica styczna z 3 \label{img:rca_err0}](assets/rca_err_0.png)
 
-![Układ RCA z wprowadzonym błędem podwójnym, różnica niestyczna z 3 \label{img:cla_err2}](assets/rca_err_2.png)
+![Układ RCA z wprowadzonym błędem podwójnym, różnica niestyczna z 3 \label{img:rca_err2}](assets/rca_err_2.png)

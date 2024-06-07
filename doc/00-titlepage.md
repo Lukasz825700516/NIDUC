@@ -1,18 +1,17 @@
 ---
-title: "NIDUC - Jednostka arytmetyczna z kodami resztowymi"
-author: "Patryk Hłond, Łukasz Mędrek, Kacper Wróblewski"
 header-includes:
   - \usepackage[utf8]{inputenc}
   - \usepackage{graphicx}
   - \usepackage[margin=1in]{geometry}
+  - \usepackage{pdfpages}
 
 output:
     pdf_document
 ---
 
-\maketitle
 
-\newpage
+\includepdf{Strona_tytuowa.pdf}
+
 \pagebreak
 \tableofcontents
 \newpage
