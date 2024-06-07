@@ -16,7 +16,7 @@ $G_i = A_i B_i$, i $P_i = A_i + B_i$.
 
 ## Symulacja błędów
 
-Aby zasymulować błędy tymczasowe które mogą się pojawić podczas czasu pracy działania układu,
+Aby zasymulować błędy przemijające które mogą się pojawić podczas czasu pracy działania układu,
 za większością bramek logicznych zamocowano bramkę XOR, 
 mającą umożliwić modyfikację sygnału wyjściowego.
 

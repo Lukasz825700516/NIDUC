@@ -17,7 +17,7 @@ Zrealizowano układ mnożący obrazek \ref{img:mul_main} z układem mnożenia ko
 ## Symulacja błędów
 
 Dla układu przeprowadzono symulację, dla której dla każdego miejsca 
-w którym mógł pojawić się błąd miękki, wprowazono błąd. Na każdą wersję
+w którym mógł pojawić się błąd przemijający, wprowazono błąd. Na każdą wersję
 symulacji wprowadzono jeden błąd.
 
 Zgodnie z teorią kodów resztowych, układ dla kodu resztowego MOD 3, wykrywał
