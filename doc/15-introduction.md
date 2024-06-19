@@ -59,7 +59,7 @@ kod resztowy. W przypadku gdy kody są nie równe, stwierdzane jest wystąpienie
 Na obrazku \ref{img:piestrak} jest pokazany układ arytmetyczny zabezpieczony kodem resztowym mod A,
 który ilustruje tę strukturę.
 
-![Samosprawdzalny układ arytmetyczny zabezpieczony kodem resztowym mod A z prezentacji S. J. Piestrak \label{img:piestrak}](assets/uklad_zabezpieczony.png)
+![Samosprawdzalny układ arytmetyczny zabezpieczony kodem resztowym mod A z prezentacji S. J. Piestrak (WIT/Politechnika Wrocławska)Wiarygodne systemy cyfrowe: pojęcia podst. \label{img:piestrak}](assets/uklad_zabezpieczony.png)
 
 ## Projekt
 
