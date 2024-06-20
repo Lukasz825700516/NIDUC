@@ -1,19 +1,15 @@
-# Ripple carry adder
+# Sumator z propagacją przeniesień (RCA)
 
-Ripple carry adder jest układem sumującym opierającym się na szeregowo
+Sumator z propagacją przeniesień jest układem sumującym opierającym się na szeregowo
 podłączonych ogniwach sumatora pełnego.
-Zbudowano ten układ z zabezpieczeniem przy użyciu kodów resztowych na obrazku \ref{fig:rca_main}.
+Zbudowano ten układ z zabezpieczeniem przy użyciu kodów resztowych.
 
-![Schemat 4 bitowego sumatora RCA, zabezpieczconego kodami resztowymi \label{fig:rca_main}, używa \ref{img:mul_rca}](assets/rca_main.png)
+![Schemat 4 bitowego sumatora RCA, zabezpieczconego kodami resztowymi \label{fig:rca_main}
 
 ## Symulacja błędów
 
-Przeprowadzono symulację układu, podczas której podano do niego wszystkie kombinacje błędów pojedyńczych,
-a następnie parę podwójnych.
-
-Dla błędów pojedyńczych układ zawsze syngalizował wykrycie błędu (obrazek \ref{img:rca_err1}). Dla błędów podwójnych,
-jeśli różnica arytmetyczna błędu była styczna z 3, błąd nie był wykrywany (obrazek \ref{img:rca_err0}), w 
-przeciwnym przypadaku, błąd był pomyślnie wykrywany (obrazek \ref{img:rca_err2}).
+Przeprowadzono symulację układu, podczas której podano do niego wszystkie kombinacje błędów pojedyńczych.
+Dla błędów pojedyńczych układ zawsze syngalizował wykrycie błędu.
 
 ##Budowa komparatora
 

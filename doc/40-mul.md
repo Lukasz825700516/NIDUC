@@ -4,9 +4,9 @@ Układ mnożący jest układem cyfrowym wykonującym działanie mnożenia.
 
 ## Układ z kodami resztowymi
 
-Zrealizowano układ mnożący obrazek \ref{img:mul_main} z układem mnożenia kodów resztowych.
+Zrealizowano układ mnożący obrazek z układem mnożenia kodów resztowych.
 
-![Układ mnożący zabezpieczony kodami resztowymi, używa \ref{img:mul_mul4}, \ref{img:mul_mul2}, \label{img:mul_main}](assets/mul_main.png)
+![Układ mnożący zabezpieczony kodami resztowymi \label{img:mul_main}](assets/mul_main.png)
 
 ![Układ 4 bitowy wykonujący mnożenie, z możliwością wprowadzania błędów \label{img:mul_mul4}, używa \ref{img:mul_rca}](assets/mul_mul4.png)
 
@@ -16,9 +16,7 @@ Zrealizowano układ mnożący obrazek \ref{img:mul_main} z układem mnożenia ko
 
 ## Symulacja błędów
 
-Dla układu przeprowadzono symulację, dla której dla każdego miejsca 
-w którym mógł pojawić się błąd przemijający, wprowazono błąd. Na każdą wersję
-symulacji wprowadzono jeden błąd.
+Dla układu przeprowadzono symulację, w której kolejno wprowadzano błąd przmijający na każdej z bramek układu. 
 
 Zgodnie z teorią kodów resztowych, układ dla kodu resztowego MOD 3, wykrywał
 wszyskie błędy pojedyńcze (obrazek \ref{img:mul_err_1}), które w implementacji układu przy użyciu wielu układów

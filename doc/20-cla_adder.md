@@ -1,6 +1,6 @@
-# CLA adder
+# Sumator z antycypacją przeniesień (CLA)
 
-Carry look ahead (CLA) adder, jest sumatorem generującym niezależnie wszystkie 
+Sumator z antycypacją przeniesień, jest sumatorem generującym niezależnie wszystkie 
 wartości bitu carry dla każdej pozycji.
 
 Działa on na podstawie rozszerzania wzoru $C_i = G_i + P_i C_{i-1}$ gdzie odpowiednio
@@ -22,14 +22,13 @@ mającą umożliwić modyfikację sygnału wyjściowego.
 
 Symulację przeprowadzono podając wszystkie wszystkie kombinacje błędów pojedyńczych, i sprawdzając 
 czy układ wykryje wprowadzenie błędu.
-Dla błędów pojedyńczych (obrazek \ref{fig:cla_err1}), układ był w stanie wykryć błąd.
-
-W przypadku błędów podwójnych, układ gdy powstała różnica arytmetyczna była styczna z 3, 
-układ nie wykrywał błędu (obrazek \ref{fig:cla_err0}), a gdy nie była równa, wykrywał 
-go (obrazek \ref{fig:cla_err2})
+Dla błędów pojedyńczych, układ był w stanie wykryć większość błędów. Poza tymi będącymi wilokrotnością 3.
 
 ![Układ CLA z wprowadzonym błędem pojedyńczym \label{fig:cla_err1}](assets/cla_err_1.png)
 
-![Układ CLA z wprowadzonym błędem podwójnym, różnica styczna z 3 \label{fig:cla_err0}](assets/cla_err_0.png)
+## Propagacja błędu
 
-![Układ CLA z wprowadzonym błędem podwójnym, różnica niestyczna z 3 \label{fig:cla_err2}](assets/cla_err_2.png)
+Z uwagi na równoległe przetwarzanie przeniesień układu, może zdarzyć się sytuacja, w której błąd pojedyńczy
+propagowany jest przez cały układ. Przykład takiego zdarzenia jest widoczny poniżej.
+
+![Sumator CLA, propagujący błąd \label{fig:cla_propagacja}](assets/cla_propagacja.png)
