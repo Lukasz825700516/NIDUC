@@ -22,7 +22,8 @@ mającą umożliwić modyfikację sygnału wyjściowego.
 
 Symulację przeprowadzono podając wszystkie wszystkie kombinacje uszkodzeń pojedyńczych, i sprawdzając 
 czy układ wykryje wprowadzenie błędu.
-Układ był w stanie wykryć większość uszkodzeń. Poza tymi będącymi generującymi różnicę arytmetyczną będącą wilokrotnością 3.
+<<<<<<< HEAD
+Dla błędów pojedyńczych, układ był w stanie wykryć większość błędów. Poza tymi będącymi wilokrotnością 3.
 
 ![Układ CLA z wprowadzonym błędem pojedyńczym \label{fig:cla_err1}](assets/cla_err_1.png)
 
@@ -32,12 +33,13 @@ Z uwagi na równoległe przetwarzanie przeniesień układu, może zdarzyć się 
 propagowany jest przez cały układ. Przykład takiego zdarzenia jest widoczny poniżej.
 
 ![Sumator CLA, propagujący błąd \label{fig:cla_propagacja}](assets/cla_propagacja.png)
+=======
+Dla uszkodzeń pojedyńczych (obrazek \ref{fig:cla_err1}), układ był w stanie wykryć błąd.
+
 ![Układ CLA z wprowadzonym błędem pojedyńczym \label{fig:cla_err1}](assets/cla_err_1.png)
 
 Na podstawie rysunków napisano symulację w system verilog, przechodzą przez wszystkie permutacje 
 jednokrotnchy możliwych uszkodzeń układu.
-
-\newpage
 
 ```verilog
 module testRCA ();
@@ -102,3 +104,4 @@ module testRCA ();
     end
 endmodule
 ```
+>>>>>>> 26be930 (dpaawd)

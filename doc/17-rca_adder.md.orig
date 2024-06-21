@@ -8,11 +8,16 @@ Zbudowano ten układ z zabezpieczeniem przy użyciu kodów resztowych.
 
 ## Symulacja uszkodzeń
 
+<<<<<<< HEAD
+Przeprowadzono symulację układu, podczas której podano do niego wszystkie kombinacje błędów pojedyńczych.
+Dla błędów pojedyńczych układ zawsze syngalizował wykrycie błędu.
+=======
 Przeprowadzono symulację układu, podczas której podano do niego wszystkie kombinacje uszkodzeń pojedyńczych,
 a następnie parę podwójnych.
 
 Dla uszkodzeń pojedyńczych układ syngalizował wykrycie błędu (obrazek \ref{img:rca_err1}) w przypadku gdy jego różnica arytmetyczna
 była potęgą dwójki.
+>>>>>>> 26be930 (dpaawd)
 
 ## Budowa komparatora
 
@@ -62,8 +67,6 @@ $Sygnał    błędu = \overline{X1}\overline{X0}\overline{Y1}\overline{Y0} + \ov
 
 Na podstawie rysunków napisano symulację w system verilog, przechodzą przez wszystkie permutacje 
 jednokrotnchy możliwych uszkodzeń układu.
-
-\newpage
 
 ```verilog
 module testCLA ();

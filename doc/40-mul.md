@@ -27,6 +27,7 @@ RCA, generowały wyłącznie uszkodzenia o różnicy arytmetycznej będącej pot
 Na podstawie rysunków napisano symulację w system verilog, przechodzą przez wszystkie permutacje 
 jednokrotnchy możliwych uszkodzeń układu.
 
+\newpage
 
 ```verilog
 module testMUL ();
