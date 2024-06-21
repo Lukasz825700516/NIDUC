@@ -10,7 +10,7 @@ output:
 ---
 
 
-\includepdf{Strona_tytuowa.pdf}
+\includepdf{strona.pdf}
 
 \pagebreak
 \tableofcontents
